@@ -11,7 +11,7 @@ import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 class App extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
 
     this.state = {
